@@ -1,0 +1,64 @@
+Ref,ChildRef,Immunisation,Dose,DoseOrder,VaccineName,VaccineGroup,ShortName,AgeSchedFromUnit,AgeSchedFromValue,AgeSchedToUnit,AgeSchedToValue,AgeMissingFromUnit,AgeMissingFromValue,AgeMissingToUnit,AgeMissingtoValue,DosesSplitByVaccineGroup,AgeCountedFromUnit,AgeCountedFromValue,AgeCountedToUnit,AgeCountedToValue,Alternate,DateValidFrom,DateValidTo
+1,,Pneumococcal,1,1,PCV-Primary,Primary,PCV,Week,8,Week,16,Month,3,Month,12,,Week,0,Year,1,,01/01/1989,31/12/2019
+2,,Pneumococcal,2,2,PCV-Primary,Primary,PCV,Week,16,Year,1,Month,5,Month,12,,Week,0,Year,1,,01/01/1989,31/12/2019
+3,2,Pneumococcal,1,3,PCV-12Month,12 Month,PCV,Year,1,Year,2,Month,14,Month,24,,Year,1,Year,2,,01/01/1989,31/12/2019
+4,,Rotavirus,1,1,ROTA,Primary,ROTA,Week,8,Week,15,Week,12,Week,16,,Week,6,Week,24,,01/01/1989,
+5,,Rotavirus,2,2,ROTA,Primary,ROTA,Week,15,Week,24,Week,16,Week,24,,Week,6,Week,24,,01/01/1989,
+6,,Diptheria,1,1,6IN1-Primary,Primary,DIPH,Month,2,Month,3,Month,3,Year,20,,Week,6,Year,20,,01/01/1989,
+7,,Diptheria,2,2,6IN1-Primary,Primary,DIPH,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/01/1989,
+8,,Diptheria,3,3,6IN1-Primary,Primary,DIPH,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/01/1989,
+9,8,Diptheria,1,4,6IN1-18Month,18 Month,DIPH,Month,18,Month,19,Month,19,Year,20,1,Month,15,Year,20,,01/07/2024,
+10,8,Diptheria,1,4,4IN1,Preschool,DIPH,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/01/1989,30/06/2024
+11,9,Diptheria,1,4,4IN1,Preschool,DIPH,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/07/2024,
+12,10,Diptheria,1,5,DTP,School,DIPH,Year,13,Year,19,Year,15,Year,20,,Year,11,Year,20,,01/01/1989,
+13,,Polio,1,1,6IN1-Primary,Primary,POLIO,Month,2,Month,3,Month,3,Year,20,,Week,6,Year,20,,01/01/1989,
+14,,Polio,2,2,6IN1-Primary,Primary,POLIO,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/01/1989,
+15,,Polio,3,3,6IN1-Primary,Primary,POLIO,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/01/1989,
+16,15,Polio,1,4,6IN1-18Month,18 Month,POLIO,Month,18,Month,19,Month,19,Year,20,1,Month,15,Year,20,,01/07/2024,
+17,15,Polio,1,4,4IN1,Preschool,POLIO,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/01/1989,30/06/2024
+18,16,Polio,1,4,4IN1,Preschool,POLIO,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/07/2024,
+19,17,Polio,1,5,DTP,School,POLIO,Year,13,Year,19,Year,15,Year,20,,Year,11,Year,20,,01/01/1989,
+20,,Tetanus,1,1,6IN1-Primary,Primary,TET,Month,2,Month,3,Month,3,Year,20,,Week,6,Year,20,,01/01/1989,
+21,,Tetanus,2,2,6IN1-Primary,Primary,TET,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/01/1989,
+22,,Tetanus,3,3,6IN1-Primary,Primary,TET,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/01/1989,
+23,22,Tetanus,1,4,6IN1-18Month,18 Month,TET,Month,18,Month,19,Month,19,Year,20,1,Month,15,Year,20,,01/07/2024,
+24,22,Tetanus,1,4,4IN1,Preschool,TET,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/01/1989,30/06/2024
+25,23,Tetanus,1,4,4IN1,Preschool,TET,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/07/2024,
+26,24,Tetanus,1,5,DTP,School,TET,Year,13,Year,19,Year,15,Year,20,,Year,11,Year,20,,01/01/1989,
+27,,Pertussis,1,1,6IN1-Primary,Primary,PERT,Month,2,Month,3,Month,3,Year,20,,Week,6,Year,20,,01/01/1989,
+28,,Pertussis,2,2,6IN1-Primary,Primary,PERT,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/01/1989,
+29,,Pertussis,3,3,6IN1-Primary,Primary,PERT,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/01/1989,
+30,29,Pertussis,1,4,6IN1-18Month,18 Month,PERT,Month,18,Month,19,Month,19,Year,20,,Month,15,Year,20,,01/07/2024,
+31,29,Pertussis,1,4,4IN1,Preschool,PERT,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/01/1989,30/06/2024
+32,30,Pertussis,1,4,4IN1,Preschool,PERT,Month,40,Year,19,Month,42,Year,20,1,Month,36,Year,20,,01/07/2024,
+33,,Hepatitis B,1,1,6IN1-Primary,Primary,HEPB,Month,2,Month,3,Month,3,Year,20,,Week,0,Year,20,,01/08/2017,
+34,,Hepatitis B,2,2,6IN1-Primary,Primary,HEPB,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/08/2017,
+35,,Hepatitis B,3,3,6IN1-Primary,Primary,HEPB,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/08/2017,
+36,35,Hepatitis B,1,4,6IN1-18Month,18 Month,HEPB,Month,18,Month,19,Month,19,Year,20,,Month,15,Year,20,,01/07/2024,
+37,,Haemophilus Infl. B,1,1,6IN1-Primary,Primary,HIB,Month,2,Month,3,Month,3,Year,20,,Week,6,Year,20,,01/01/1989,
+38,,Haemophilus Infl. B,2,2,6IN1-Primary,Primary,HIB,Month,3,Month,4,Month,4,Year,20,,Week,0,Year,20,,01/01/1989,
+39,,Haemophilus Infl. B,3,3,6IN1-Primary,Primary,HIB,Month,4,Year,19,Month,5,Year,20,,Week,0,Year,20,,01/01/1989,
+40,39,Haemophilus Infl. B,1,4,6IN1-18Month,18 Month,HIB,Month,18,Month,19,Month,19,Year,20,,Month,15,Year,20,,01/07/2024,
+41,,Haemophilus Infl. B,1,1,HIBMENC,12 Month,HIB,Year,1,Year,19,Month,14,Year,10,,Week,51,Year,20,,01/09/2006,30/06/2024
+42,,Meningitis C,1,1,HIBMENC,12 Month,MENC,Year,1,Year,19,Month,14,Year,10,,Week,51,Year,20,,01/09/2006,30/06/2024
+43,,"Measles, Mumps and Rubella",1,1,MMR-1,12 Month,MMR,Month,12,Year,19,Month,14,Year,20,0,Year,1,Year,20,,01/01/1989,31/12/2024
+44,43,"Measles, Mumps and Rubella",1,2,MMR-2,Preschool,MMR,Month,40,Year,19,Month,42,Year,20,1,Year,1,Year,20,,01/01/1989,31/08/2022
+45,,HPV,1,1,HPV,School,HPV,Year,12,Year,19,Year,14,Year,20,,Year,12,Year,20,,01/01/1989,
+46,,MenACWY,1,1,MEACWY,School,ACWY,Year,13,Year,19,Year,15,Year,20,,Year,10,Year,20,,01/01/1989,
+47,,Meningitis B,1,1,MENB-Primary,Primary,MENB,Month,2,Month,4,Month,3,Year,1,,Week,6,Year,1,,01/06/2015,
+48,,Meningitis B,2,2,MENB-Primary,Primary,MENB,Month,3,Month,14,Month,4,Year,1,,Week,0,Year,1,,01/06/2015,
+49,48,Meningitis B,1,3,MENB-12Month,12 Month,MENB,Month,12,Month,24,Month,14,Year,2,,Year,1,Year,20,,01/06/2015,
+50,,Pneumococcal,1,1,PCV-Primary,Primary,PCV,Month,4,Year,1,Month,5,Month,12,,Week,6,Year,1,,01/01/2020,
+51,50,Pneumococcal,1,2,PCV-12Month,12 Month,PCV,Year,1,Year,2,Month,14,Month,24,,Year,1,Year,2,,01/01/2020,
+52,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,MMR,Month,12,Year,20,Month,14,Year,20,1,Month,12,Year,20,,01/01/2025,
+53,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,VAR,Month,12,Year,20,Month,14,Year,20,1,Month,12,Year,20,,01/01/2025,
+54,52,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,MMR,Month,18,Year,20,Month,19,Year,20,1,Month,12,Year,20,,01/01/2025,
+55,53,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,VAR,Month,18,Year,20,Month,19,Year,20,1,Month,12,Year,20,,01/01/2025,
+56,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,MMR,Month,18,Year,20,Month,19,Year,20,1,Month,12,Year,20,,01/07/2024,31/12/2024
+57,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,VAR,Month,18,Year,20,Month,19,Year,20,1,Month,12,Year,20,,01/07/2024,31/12/2024
+58,56,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,MMR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/07/2024,31/12/2024
+59,57,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,VAR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/07/2024,31/12/2024
+60,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,MMR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/09/2022,30/06/2024
+61,,"Measles, Mumps, Rubella and Varicella",1,1,MMRV-1,12 Month,VAR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/09/2022,30/06/2024
+62,60,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,MMR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/09/2022,30/06/2024
+63,61,"Measles, Mumps, Rubella and Varicella",1,2,MMRV-2,18 Month,VAR,Month,40,Year,20,Month,42,Year,20,1,Month,12,Year,20,,01/09/2022,30/06/2024
