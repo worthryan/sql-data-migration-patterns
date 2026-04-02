@@ -33,11 +33,10 @@ ON ##Ants (NHSNumber, AntigenCodeNorm, DateOfImmunisation);
 			,ar.[AgeMissingFromUnit]
 			,ar.[AgeMissingFromValue]
 			,ar.[AgeMissingToUnit]
-			,ar.[AgeMissingtoValue]
-			
+			,ar.[AgeMissingtoValue]			
 			,[analysts].[dbo].[ConvertDate](pds.[Date_Of_Birth],ar.[AgeCountedFromValue],ar.AgeCountedFromUnit) AS WindowStartDate
-		,[analysts].[dbo].[ConvertDate](pds.[Date_Of_Birth],ar.[AgeCountedtoValue], ar.[AgeCountedToUnit]) AS WindowEndDate
-		,pds.va_date
+		    ,[analysts].[dbo].[ConvertDate](pds.[Date_Of_Birth],ar.[AgeCountedtoValue], ar.[AgeCountedToUnit]) AS WindowEndDate
+		    ,pds.va_date
 	INTO ##TempPop
   FROM [Population].[dbo].[tbl_SCW_PDS_live] pds
   -- Join to return what Antigens the child is due 
